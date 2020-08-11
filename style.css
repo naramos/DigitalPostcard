@@ -1,0 +1,90 @@
+*{box-sizing: border-box; 
+}
+
+body{
+    background-color: black;
+    font-family: 'Handlee', cursive;
+}
+
+.main{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.right input{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 240px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+.main-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+    background-color: darkgray;
+    font-family: 'Handlee', cursive;
+    padding-top: 20px;
+}
+
+.header-title, 
+.header-logo, 
+.main-content, 
+.main-input{
+    width: 50%;
+}
+
+.header-logo img{
+    float: right;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.header-title{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.header-logo{
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.main-content{
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.main-input{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+}
